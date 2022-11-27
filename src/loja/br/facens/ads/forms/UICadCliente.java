@@ -407,6 +407,7 @@ public class UICadCliente extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void cadastrarCliente(Cliente novo) {
@@ -480,7 +481,7 @@ public class UICadCliente extends javax.swing.JFrame {
         
         atualizarCliente.setCpf(txtfCPFBuscar.getText());
         atualizarCliente.setNome(txtNomeBuscar.getText());
-        atualizarCliente.setSexo(sexo);
+        atualizarCliente.setSexo(txtSexoBuscar.getText());
         atualizarCliente.setEndereco(txtEnderecoBuscar.getText());        
         atualizarCliente.setCidade(txtCidadeBuscar.getText());
         atualizarCliente.setEstado(txtEstadoBuscar.getText());
